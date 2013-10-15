@@ -1,0 +1,8 @@
+== README
+
+Sample application for managing Blogs.
+This app is build on Rails 4 and a backbone.js
+Just a refernce of how to use backbone's Model, View, Collections.
+To run, start the server and hit http://0.0.0.0:3000/blogs
+
+ 

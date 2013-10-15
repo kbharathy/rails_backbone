@@ -1,0 +1,11 @@
+<h1>Listing authors</h1>
+
+<div id="authors"></div>
+
+<script type="text/javascript">
+	$(function(){
+		window.router = new BlogBb.Routers.AuthorsRouter({authors: <%=  @authors.to_json.html_safe -%>});
+		Backbone.history.start();	
+	});
+	
+</script>
